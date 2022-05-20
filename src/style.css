@@ -1,0 +1,109 @@
+body{
+    height: 920px;
+    width: 1000px;
+    left: -2301px;
+    top: -513px;
+    background: linear-gradient(195.66deg, #952BFE 63.92%, rgba(22, 140, 250, 0.93) 92.99%);
+}
+
+h1{
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 93px;
+display: flex;
+align-items: flex-end;
+text-align:center;
+color: #FFFFFF;
+margin-left: 260px;
+}
+
+section{
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    width: 643px;
+    height: 600px;
+    left: 450px;
+    top: 150px;
+}
+img{
+    position: relative;
+    width: 310px;
+    height: 215px;
+    left: 180px;
+    top: 27px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+}
+
+input[type=text]{
+   margin-left: 210px;
+   width: 250px;
+   height: 25px;
+   border-radius: 5px;
+}
+
+input[id="cvv"]{
+   margin-left: 10px; 
+   width: 110px;
+   height: 25px;
+}
+
+input[type=date]{
+    margin-left:210px; 
+    margin-right:10px;
+    width: 110px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    margin-left: 170px;
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background: #00C2FF;
+    background: #00C2FF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border-color: #00C2FF;
+  }
+
+  input[type=reset]{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background: #00C2FF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border-color: #00C2FF;
+
+  }
+
+label{
+    margin-left: 210px;
+}
+
+label[for="cvv"]{
+margin-left: 94px;
+}
+
+
+
+
+

@@ -5,6 +5,6 @@ console.log(validator);
 let creditCardNumber= '4036074665905431';
 
 
-validator.isvalid (creditCardNumber);
+validator.isValid (creditCardNumber);
 
 validator.maskify (creditCardNumber);
