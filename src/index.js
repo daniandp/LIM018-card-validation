@@ -2,9 +2,20 @@ import validator from './validator.js';
 
 console.log(validator);
 
-let creditCardNumber= '4036074665905431';
+ 
+let payButton = document.getElementById('pagar')
+
+payButton.addEventListener ('click', ()=> {
+   const creditCardNumber = document.getElementById('cardnumber').value;
+    const isValid = validator.isValid(creditCardNumber);
+    console.log('aqui', isValid) 
+    if (isValid) {
+       alert ('tarjeta valida')
+        
+    } else {alert ('tarjeta invalida')}
 
 
-validator.isValid (creditCardNumber);
+})  
 
-validator.maskify (creditCardNumber);
+
+
