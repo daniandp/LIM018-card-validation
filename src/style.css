@@ -20,16 +20,15 @@ section{
     width: 100%;
     display: inline-block;
     text-align: center;
-    display: inline-block;
 }
 
 img{
     width: 310px;
-   
-    margin-top:30px;
+    margin-top:40px;
     border-radius: 10px;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
 }
+
 .sección_de_pago {
     background: #FFFFFF;
     width:50%;
@@ -40,58 +39,62 @@ img{
     font-family: 'Montserrat';
 }
    
-
-
-input[type=text]{
-   text-align: left; 
+input[type=text]{ 
    width: 250px;
    height: 25px;
    border-radius: 5px;
 }
 
 input[type=date]{
-    margin-left: 18px;
-    width: 100px;
+    margin-left: 2px;
+    margin-right: 20px;
+    width: 110px;
     height: 25px;
     border-radius: 5px;
 }
 
-input[id="cvv"]{
-   width: 110px;
-   height: 25px;
-}
+input[id="expira"]{
+    width: 110px;
+    height: 26px;
+ }
 
+ input[id="cvv"]{
+    width: 110px;
+    height: 25px;
+ }
+ 
 
-.botones {
-    width: 150px;
-    height: 30px;
-    margin-top: 30px;
-    margin-bottom:20px;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600%;
+ .botones {
+    width: 49%;
+    margin-top: 20px;
+    margin-bottom:17px;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: 100px;
+    display: inline-block;
     text-align: center;
     color: #FFFFFF;
     border-color: #00C2FF;
     background: #00C2FF;
+ }
 
+label[for="expira"]{
+    margin-right: 85px;
+}
+
+label[for="cvv"]{
+    margin-right: 78px;
+}
+
+label[for="fullname"]{
+    margin-right: 85px;
+}
+
+label[for="cardnumber"]{
+    margin-right: 105px;
 }
 
 
-  input[type=reset]{
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-    background: #00C2FF;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-    border-color: #00C2FF;
-
-  }
 
 
 

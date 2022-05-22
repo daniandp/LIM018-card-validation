@@ -3,19 +3,21 @@ import validator from './validator.js';
 console.log(validator);
 
  
-let payButton = document.getElementById('pagar')
+let payButton = document.getElementById('pagar');
 
 payButton.addEventListener ('click', ()=> {
-   const creditCardNumber = document.getElementById('cardnumber').value;
-    const isValid = validator.isValid(creditCardNumber);
-    console.log('aqui', isValid) 
-    if (isValid) {
-       alert ('tarjeta valida')
+   let creditCardNumber = document.getElementById('cardnumber').value;
+   let luhnAlgo = validator.isValid(creditCardNumber);
+    
+   console.log('¿la tarjeta es válida?', luhnAlgo); 
+    
+   if (luhnAlgo === true ) {
+       alert ('tarjeta valida');
         
-    } else {alert ('tarjeta invalida')}
+   } else {alert ('tarjeta invalida');
+      }
 
-
-})  
+}); 
 
 
 
