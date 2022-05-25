@@ -2,7 +2,8 @@ import validator from './validator.js';
 
 console.log(validator);
 
- 
+//let creditCardNumber = '4556364607935616'
+
 let payButton = document.getElementById('pagar');
 
 payButton.addEventListener ('click', ()=> {
@@ -18,6 +19,19 @@ payButton.addEventListener ('click', ()=> {
       }
 
 }); 
+
+
+
+/*let replaceCharacters = document.getElementById('cardnumber').value;
+replaceCharacters.addEventListener ('input', () => {
+let creditCardNumber = document.getElementById('cardnumber').value;
+let getMask = validator.maskify (creditCardNumber);
+console.log ('esto es ', getMask);
+});*/
+
+//let getMask = validator.maskify (creditCardNumber);
+
+
 
 
 
