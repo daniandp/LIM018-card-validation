@@ -8,35 +8,35 @@ const validator = {
         return parseInt(stringToArray);
     });
    
-    console.log ('estos son los datos en orden inverso', stringToArray);
-    console.log ('esto es el array tipo number', arrayOfNumber);
-    console.log ('array of number es de tipo', (typeof arrayOfNumber));
+    //console.log ('estos son los datos en orden inverso', stringToArray);
+   // console.log ('esto es el array tipo number', arrayOfNumber);
+   // console.log ('array of number es de tipo', (typeof arrayOfNumber));
 
     //Bucle for para diferenciar los números de las posiciones pares e impares
     let sum = 0;
     for (let i = 0; i < arrayOfNumber.length; i++){
       let digits = arrayOfNumber[i];
       const isPair = (i % 2!==0);
-      console.log('¿la posición es par?',isPair);
-      console.log('el digito original es', digits);
+      //console.log('¿la posición es par?',isPair);
+      //console.log('el digito original es', digits);
       // Los números de las posiciones pares se multiplican por 2
           if (isPair) {
             digits *=2;
-            console.log ('el digito multplicado por 2 es =', digits);
+            //console.log ('el digito multplicado por 2 es =', digits);
             // Si la multiplicación es mayor a 9 se le restan 9 al número
               if (digits > 9){
                   digits -= 9
-                  console.log ('el digito menos 9 es =', digits); 
+                  //console.log ('el digito menos 9 es =', digits); 
               }
          
           } 
       // Sumando valor de sum y el NUEVO valor de digits en cada ciclo del bucle
       sum += digits 
-      console.log ('sumando los números en cada ciclo', sum);
+      //console.log ('suma de los números en cada ciclo =', sum);
       
    }
     
-    console.log ('esto es el valor TOTAL de la suma', sum)
+    //console.log ('esto es el valor TOTAL de la suma', sum)
     
     //Valores que debe retornar la función isValid
      if (sum % 10 === 0) {
@@ -54,23 +54,25 @@ const validator = {
     
     //Convirtiendo el string a array
     let newArr = creditCardNumber.split('');
-    console.log('estos son los últimos 4 dígitos reservados =',lastFourNumbers);
-    console.log ('esto es el string en un array', newArr );
+    //console.log('estos son los últimos 4 dígitos reservados =',lastFourNumbers);
+    //console.log ('esto es el string en un array', newArr );
 
     //Bucle for para sustituir cada elemento del array por un #
-    for (let i = 0; i < newArr.length; i++){
+    for (let i = 0; i < newArr.length; i++) {
       newArr[i] = newArr[i].replace(/[A-Za-z0-9]/,'#');
-      console.log (newArr);
-      console.log ('cada elemento sustituido por #', newArr[i]);
-    };
+      //console.log (newArr);
+      //console.log ('cada elemento sustituido por #', newArr[i]);
+     }
 
     //Convirtiendo el array en string de nuevo
     let arrToString = newArr.join('');
-    console.log ('esto es el array a cadena', arrToString);
+    //console.log ('esto es el array a cadena', arrToString);
+    
     // Extrayando caracteres del string para concatenarlos con los 4 que habíamos reservado
     let mask = arrToString.slice(0,-4) + lastFourNumbers;
-    console.log ('esto es la cadena con caracteres sustituidos menos los últimos 4 =', mask);
-    console.log ('mask es de tipo', (typeof mask));
+    //console.log ('esto es la cadena con caracteres sustituidos menos los últimos 4 =', mask);
+    //console.log ('mask es de tipo', (typeof mask));
+    
     //String que debe retornar la función maskify 
     return mask   
   }
@@ -80,36 +82,7 @@ const validator = {
 
   export default validator;
   
-    
- 
   
-  
-
-
-/*
-.reduce(function(a,b){
-          return parseInt(a+b)
-          })
-          let newArray = [];
-          console.log('digito multiplicado por 2 es = ', newDigits)
-          //newArray = newArray.reduce(function(a,b){
-            //return parseInt(newArray) + parseInt(newArray);
-
-
-          newArray = newDigits.toString().split('');
-          console.log ('este es el nuevo array' ,newArray);
-          newArray = parseInt(newArray[0]) + parseInt(newArray[1]);
-
-          console.log ('esta es la suma dentro del newarray', newArray);
-          console.log ('newarray es de tipo', (typeof newArray));
-
-          let newDigits = digits *=2;
-          console.log ('el digito multplicado por 2 es =', newDigits);
-          console.log ('newdigits es de tipo', (typeof newDigits));
-        if (newDigits >= 10) {
-          let resDigits = newDigits - 9
-          console.log ('el digito menos 9 es =', resDigits);
-        } */
 
 
 
