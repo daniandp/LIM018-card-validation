@@ -22,23 +22,29 @@
     </section id="firstpage">
       
       
-      <main id= "secondpage">
-        <h1>ZONA CÓDIGO</h1>
+      <main class="paypage">
         <section>
-          <div id="paysection" class="sección_de_pago"> 
-          <img src= "imagen/creditcard.png">
-          <br> <br>
-          <div id="paysection" class= "sección_de_pago"> </div>
+          <h1>ZONA CÓDIGO</h1>
+          <div id="paysection" class="pay_section">
+            <img src= "imagen/creditcard.png">
+            <br> <br>
+          <div id="paysection" class= "pay_section"> </div>
           <form>
           <label for="fullname">Nombres y apellidos</label> <br>
           <input type="text" id="fullname" name="fullname" value=""> <br> <br>
           <label for="cardnumber">Número de tarjeta</label> <br>
           <input type="text" maxlength="16" id="cardnumber" name="cardnumber" value=""> <br> <br>
-          <label for="expira">Expira</label> <label for="cvv">CVV</label> <br>
-          <input type="date" id="expira" name="expira" value="">
+          <div id="validation1"><br>
+          <img src ="imagen/greencheck.png">
+          </div>
+          <div id="validation2"> <br>
+          <img src ="imagen/redfalse.png">
+          </div>
+          <label for="expire">Expira</label> <label for="cvv">CVV</label> <br>
+          <input type="date" id="expire" name="expire" value="">
           <input type="password" maxlength="3" id="cvv" name="cvv" value=""> <br> <br>
-          <button type="button" id="pagar" class="botones"> PAGAR </button>
-          <button type= "reset" id="limpiar" class="botones"> LIMPIAR </button>
+          <button type="button" id="pay" class="botones"> PAGAR </button>
+          <button type= "reset" id="clean" class="botones"> LIMPIAR </button>
           </form>
           </div>
           </div>

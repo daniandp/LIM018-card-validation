@@ -1,6 +1,6 @@
 #firstpage{
     width: 100%;
-    height: 100%;
+    height: 50em;
     background: linear-gradient(195.66deg, #952BFE 63.92%, rgba(22, 140, 250, 0.93) 92.99%);
     
     
@@ -16,19 +16,23 @@
 
 .image{
     position: absolute;
-    width: 204px;
-    height: 394px;
-    left: calc(65% - 664px/2 + 302px);
+    width: 100%;
+    height: 100%;
+    left: calc(62% - 664px/2 + 302px);
     top: 195px;
 }
 
-#secondpage{
+.paypage{
+    display: none;
+}
+
+.paypage{
     width: 100%;
+    height: 100%;
     background: linear-gradient(195.66deg, #952BFE 63.92%, rgba(22, 140, 250, 0.93) 92.99%); 
     display: inline-block;
     text-align: center;
 }
-
 
 
 h1{
@@ -50,7 +54,7 @@ img{
     margin-bottom: 20px;
 }
 
-.sección_de_pago {
+.pay_section {
     background: #FFFFFF;
     width:50%;
     text-align: center;
@@ -64,6 +68,16 @@ input[type=text]{
    width: 250px;
    height: 25px;
    border-radius: 5px;
+}
+
+#validation1{
+   max-width:5px;
+   max-height: 5px;
+}
+
+#validation2{
+   max-width:5px;
+   max-height: 5px; 
 }
 
 input[type=date]{
@@ -99,6 +113,12 @@ input[id="expira"]{
     border-color: #00C2FF;
     background: #00C2FF;
     cursor: pointer;
+    transition: all 300ms;
+
+ }
+
+ .botones:hover{
+     transform: scale(1.1,1.2);
  }
 
 label[for="expira"]{
