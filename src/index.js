@@ -1,11 +1,9 @@
 import validator from './validator.js';
 
-//console.log(validator);
-
-//let creditCardNumber = '4556364607935616'
-
-
-
+document.getElementById("inscription").addEventListener('click', () => {
+    document.getElementById("paysection").classList.remove("sección_de_pago");
+    document.getElementById("firstpage").style.display="none";
+})
 
 let payButton = document.getElementById('pagar');
 let creditCardNumber = document.getElementById('cardnumber');
@@ -23,23 +21,14 @@ payButton.addEventListener ('click', ()=> {
       console.log('esto es el maskify', validator.maskify (creditCardNumber.value))
 });
 
+
+
+
 /*creditCardNumber.addEventListener ('keyup', ()=>{
-   validator.maskify (creditCardNumber.value)
+   creditCardNumber.value =  validator.maskify (creditCardNumber.value)
     console.log('esto es el maskify', validator.maskify (creditCardNumber.value) )
 });*/
 
-
-
-//creditCardNumber.addEventListener ('input', validator.maskify (creditCardNumber))
-//creditCardNumber.on('keyup',validator.maskify (creditCardNumber))
-//let replaceCharacters = document.getElementById('cardnumber').value;
-//replaceCharacters.on('keyup', '[cardnumber]', validator.maskify (creditCardNumber))
-
-/*creditCardNumber = document.getElementById('cardnumber').value;
-let getMask = validator.maskify (creditCardNumber);
-console.log ('esto es getmask', getMask);*/
-//let getMask = validator.maskify (creditCardNumber);
-//creditCardNumber.value =  validator.maskify (creditCardNumber.value)
 
 
 

@@ -8,13 +8,27 @@
       <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
+    <section id="firstpage">
       <h1>ZONA CÓDIGO </h1>
-      <main></main>
-        <section> 
-          <div class="sección_de_pago">
+      <div class= "content">
+      <h6>Para un mejor futuro</h6>
+      <h2>CURSOS DE PROGRAMACIÓN</h2>
+      <h4>Mejora tus habilidades cada día</h4>
+      <button type="button" id="inscription" class="botones">INSCRIBIRSE</button>
+    </div>
+      <div class =image>
+        <img src="imagen/programacion.gif">
+      </div>
+    </section id="firstpage">
+      
+      
+      <main id= "secondpage">
+        <h1>ZONA CÓDIGO</h1>
+        <section>
+          <div id="paysection" class="sección_de_pago"> 
           <img src= "imagen/creditcard.png">
           <br> <br>
-          <div class= "sección_de_pago">
+          <div id="paysection" class= "sección_de_pago"> </div>
           <form>
           <label for="fullname">Nombres y apellidos</label> <br>
           <input type="text" id="fullname" name="fullname" value=""> <br> <br>
@@ -22,14 +36,20 @@
           <input type="text" maxlength="16" id="cardnumber" name="cardnumber" value=""> <br> <br>
           <label for="expira">Expira</label> <label for="cvv">CVV</label> <br>
           <input type="date" id="expira" name="expira" value="">
-          <input type="text" id="cvv" name="cvv" value=""> <br> <br>
+          <input type="password" maxlength="3" id="cvv" name="cvv" value=""> <br> <br>
           <button type="button" id="pagar" class="botones"> PAGAR </button>
           <button type= "reset" id="limpiar" class="botones"> LIMPIAR </button>
           </form>
           </div>
           </div>
         </section>
-    <footer></footer>
+    <footer>
+      <div></div>
+<p>Autor: Daniela Andrade</p>
+<p>andradegsp@gmail.com</p>
+<p>Todos los derechos reservados ©</p>
+</div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
