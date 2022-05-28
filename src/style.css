@@ -1,51 +1,73 @@
-#firstpage{
+body{
     width: 100%;
-    height: 50em;
+    margin: 0;
     background: linear-gradient(195.66deg, #952BFE 63.92%, rgba(22, 140, 250, 0.93) 92.99%);
-    
-    
+}
+
+.header{
+    background-color: #00C2FF;
+    height: 65px;
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zonacodigo{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 65px;
+}
+
+.menu{
+   display: flex;
+   margin-right: 40px;
+   list-style: none;
+}
+
+.menuitem{
+   font-size: 18px;
+   margin: 0 10px; 
+   line-height: 30px;
+   cursor: pointer;
+
 }
 
 .content{
+    width: 49%;
+    text-align: left;
     font-family: 'Montserrat';
     font-size: 23px;
     color: #ffffff;
     margin-left: 160px;
-    margin-top: 5px;
+    margin-top: 100px;
 }
 
 .image{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: calc(62% - 664px/2 + 302px);
-    top: 195px;
+  width: 40%; 
+  float: right;
 }
-
-.paypage{
-    display: none;
-}
-
-.paypage{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(195.66deg, #952BFE 63.92%, rgba(22, 140, 250, 0.93) 92.99%); 
-    display: inline-block;
-    text-align: center;
-}
-
 
 h1{
-width: 100%;   
-font-family: 'Iceland';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 93px;
-text-align:center;
-color: #FFFFFF;
-display: inline-block;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-size: 70px;
+    font-weight: normal;
+    text-align:center;
+    color: #FFFFFF;
+    margin-top: 130px;
 }
+
 
 img{
     width: 310px;
@@ -54,30 +76,25 @@ img{
     margin-bottom: 20px;
 }
 
-.pay_section {
-    background: #FFFFFF;
-    width:50%;
+.second {
+    display: none;
+}
+
+
+.paysection {
+    width: 50%;
     text-align: center;
-    display: inline-block;
+    background: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 50px;
     font-family: 'Montserrat';
+    margin-left: 350px;
 }
    
 input[type=text]{ 
    width: 250px;
    height: 25px;
    border-radius: 5px;
-}
-
-#validation1{
-   max-width:5px;
-   max-height: 5px;
-}
-
-#validation2{
-   max-width:5px;
-   max-height: 5px; 
 }
 
 input[type=date]{
@@ -99,13 +116,12 @@ input[id="expira"]{
     border-radius: 5px;
  }
  
-
  .botones {
-    width: 25%;
-    margin-top: 10px;
-    margin-bottom:70px;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom:40px;
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 100px;
     display: inline-block;
     text-align: center;
@@ -113,12 +129,10 @@ input[id="expira"]{
     border-color: #00C2FF;
     background: #00C2FF;
     cursor: pointer;
-    transition: all 300ms;
-
  }
 
  .botones:hover{
-     transform: scale(1.1,1.2);
+    transform: scale(1.1,1.2);
  }
 
 label[for="expira"]{
@@ -138,10 +152,11 @@ label[for="cardnumber"]{
 }
 
 footer{ 
-    width: 100%;
+    height: 12em;
     text-align: center;
     font-family: 'Montserrat';
     color:#FFFFFF;
+    padding: 80px;
 }
 
 

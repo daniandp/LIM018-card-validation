@@ -8,54 +8,54 @@
       <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section id="firstpage">
-      <h1>ZONA CÓDIGO </h1>
-      <div class= "content">
-      <h6>Para un mejor futuro</h6>
-      <h2>CURSOS DE PROGRAMACIÓN</h2>
-      <h4>Mejora tus habilidades cada día</h4>
-      <button type="button" id="inscription" class="botones">INSCRIBIRSE</button>
-    </div>
-      <div class =image>
-        <img src="imagen/programacion.gif">
-      </div>
-    </section id="firstpage">
-      
-      
-      <main class="paypage">
-        <section>
-          <h1>ZONA CÓDIGO</h1>
-          <div id="paysection" class="pay_section">
-            <img src= "imagen/creditcard.png">
-            <br> <br>
-          <div id="paysection" class= "pay_section"> </div>
-          <form>
-          <label for="fullname">Nombres y apellidos</label> <br>
-          <input type="text" id="fullname" name="fullname" value=""> <br> <br>
-          <label for="cardnumber">Número de tarjeta</label> <br>
-          <input type="text" maxlength="16" id="cardnumber" name="cardnumber" value=""> <br> <br>
-          <div id="validation1"><br>
-          <img src ="imagen/greencheck.png">
+      <header class="header">
+        <nav class="nav">
+          <a href="#" class="zonacodigo" id="title">ZONA CÓDIGO</a>
+          <ul class="menu">
+            <li class="menuitem">HOME</li>
+            <li class="menuitem">CONTÁCTANOS</li>
+            <li class="menuitem">CONÓCENOS</li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <section id="firstpage" class="homepage">
+        <h1>ZONA CÓDIGO </h1>
+          <div class =image>
+            <img src="imagen/programacion.gif">
           </div>
-          <div id="validation2"> <br>
-          <img src ="imagen/redfalse.png">
+          <div class="content">
+            <h6>Para un mejor futuro</h6>
+            <h2>CURSOS DE PROGRAMACIÓN</h2>
+            <h4>Mejora tus habilidades cada día</h4>
+            <button type="button" id="inscription" class="botones">INSCRIBIRSE</button>
           </div>
-          <label for="expire">Expira</label> <label for="cvv">CVV</label> <br>
-          <input type="date" id="expire" name="expire" value="">
-          <input type="password" maxlength="3" id="cvv" name="cvv" value=""> <br> <br>
-          <button type="button" id="pay" class="botones"> PAGAR </button>
-          <button type= "reset" id="clean" class="botones"> LIMPIAR </button>
-          </form>
-          </div>
-          </div>
-        </section>
-    <footer>
-      <div></div>
-<p>Autor: Daniela Andrade</p>
-<p>andradegsp@gmail.com</p>
-<p>Todos los derechos reservados ©</p>
-</div>
-    </footer>
+      </section>
+
+        <section class="second" id="secondpage"> 
+          <h1>ZONA CÓDIGO </h1>
+            <div class="paysection">
+              <form>
+                <img src= "imagen/creditcard.png"> <br><br>
+                <label for="fullname">Nombres y apellidos</label> <br>
+                <input type="text" id="fullname" name="fullname" value=""> <br> <br>
+                <label for="cardnumber">Número de tarjeta</label> <br>
+                <input type="text" id="cardnumber" maxlength="16" name="cardnumber" value=""> <br> <br>
+                <div id="validation"></div><br>
+                <label for="expira">Expira</label> <label for="cvv">CVV</label> <br>
+                <input type="date" id="expira" name="expira" value="">
+                <input type="password" id="cvv" maxlength="3" name="cvv" value=""> <br> <br>
+                <button type="button" id="pay" class="botones"> PAGAR </button>
+                <button type= "reset" id="clean" class="botones"> LIMPIAR </button>
+               </form>
+            </div>
+        </section> 
+    </main>
+  <footer>
+    <p>Autor: Daniela Andrade</p>
+    <p>andradegsp@gmail.com</p>
+    <p>Todos los derechos reservados ©</p>
+  </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
