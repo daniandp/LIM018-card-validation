@@ -49,8 +49,8 @@ body{
     font-family: 'Montserrat';
     font-size: 23px;
     color: #ffffff;
-    margin-left: 160px;
-    margin-top: 100px;
+    margin-left: 200px;
+    margin-top: 110px;
 }
 
 .image{
@@ -88,7 +88,7 @@ img{
     border-radius: 10px;
     margin-bottom: 50px;
     font-family: 'Montserrat';
-    margin-left: 350px;
+    margin-left: 420px;
 }
    
 input[type=text]{ 

@@ -1,11 +1,13 @@
 import validator from './validator.js';
 
-//Barra de menú
+//Barra de menú, vuelve a la página de inicio
 document.getElementById('title').addEventListener('click', ()=> {
 document.getElementById('firstpage').style.display='block'
+document.getElementById("secondpage").classList.add('second');
+
 });
 
-//Botón de la primera página
+//Botón de la primera página, lleva a la segunda página
 let inscriptionButton = document.getElementById('inscription');
 
 inscriptionButton.addEventListener('click', () => {
