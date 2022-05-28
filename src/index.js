@@ -1,11 +1,17 @@
 import validator from './validator.js';
 
+//Barra de menú
+document.getElementById('title').addEventListener('click', ()=> {
+document.getElementById('firstpage').style.display='block'
+});
+
 //Botón de la primera página
 let inscriptionButton = document.getElementById('inscription');
 
 inscriptionButton.addEventListener('click', () => {
     document.getElementById('firstpage').style.display='none';
-})
+    document.getElementById("secondpage").classList.remove('second');
+});
 //Botones y datos de la segunda página
 let creditCardNumber = document.getElementById('cardnumber');
 let payButton = document.getElementById('pay');
@@ -18,9 +24,12 @@ payButton.addEventListener('click', ()=> {
    console.log('¿la tarjeta es válida?', luhnAlgo); 
     
    if (luhnAlgo === true ) {
-       document.getElementById('validation1').innerHTML = '¡Su tarjeta es válida!'
+       document.getElementById('validation').innerHTML = '¡Su tarjeta es válida!'
+       document.getElementById('validation').style.display='block';
         
-    } else { document.getElementById('validation').innerHTML = '¡Su tarjeta es inválida!'
+    } else { 
+        document.getElementById('validation').innerHTML = '¡Su tarjeta es inválida!'
+        document.getElementById('validation').style.display='block';
       }
       console.log('esto es el maskify', validator.maskify (creditCardNumber.value));
 });
@@ -28,7 +37,7 @@ payButton.addEventListener('click', ()=> {
 //Botón de limpiar, borra los datos agregados
 cleanButton.addEventListener ('click', ()=> {
     document.getElementById('validation').style.display='none';
-})
+});
 
 
 
