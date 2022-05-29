@@ -115,8 +115,8 @@ input[id="expira"]{
     border-radius: 5px;
  }
  
- .botones {
-    width: 40%;
+ .buttons {
+    width:35%;
     margin-top: 20px;
     margin-bottom:40px;
     font-family: 'Montserrat';

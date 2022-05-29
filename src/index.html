@@ -21,14 +21,14 @@
     <main>
       <section id="firstpage">
         <h1>ZONA CÓDIGO </h1>
-          <div class =image>
+          <div class ="image">
             <img src="imagen/programacion.gif">
           </div>
           <div class="content">
             <h6>Para un mejor futuro</h6>
             <h2>CURSOS DE PROGRAMACIÓN</h2>
             <h4>Mejora tus habilidades cada día</h4>
-            <button type="button" id="inscription" class="botones">INSCRIBIRSE</button>
+            <button type="button" id="inscription" class="buttons">INSCRIBIRSE</button>
           </div>
       </section>
 
@@ -38,15 +38,16 @@
               <form>
                 <img src= "imagen/creditcard.png"> <br><br>
                 <label for="fullname">Nombres y apellidos</label> <br>
-                <input type="text" id="fullname" name="fullname" value=""> <br> <br>
+                <input type="text" id="fullname" name="fullname" value="" required > <br> <br>
                 <label for="cardnumber">Número de tarjeta</label> <br>
-                <input type="text" id="cardnumber" maxlength="16" name="cardnumber" value=""> <br> <br>
+                <input type="text" id="cardnumber" maxlength="16" name="cardnumber" value="" required> <br> <br>
                 <div id="validation"></div><br>
                 <label for="expira">Expira</label> <label for="cvv">CVV</label> <br>
-                <input type="date" id="expira" name="expira" value="">
-                <input type="password" id="cvv" maxlength="3" name="cvv" value=""> <br> <br>
-                <button type="button" id="pay" class="botones"> PAGAR </button>
-                <button type= "reset" id="clean" class="botones"> LIMPIAR </button>
+                <input type="date" id="expira" name="expira" value="" required>
+                <input type="password" id="cvv" maxlength="3" name="cvv" value="" required> <br> <br>
+                <button type="button" id="pay" class="buttons"> VALIDAR</button>
+                <input type="submit" class="buttons" value="PAGAR">
+                <button type= "reset" id="clean" class="buttons"> LIMPIAR </button>
                </form>
             </div>
         </section> 

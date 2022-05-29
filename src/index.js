@@ -23,7 +23,7 @@ let cleanButton = document.getElementById('clean');
 payButton.addEventListener('click', ()=> {
    let luhnAlgo = validator.isValid(creditCardNumber.value);
    creditCardNumber.value =  validator.maskify (creditCardNumber.value);
-   console.log('¿la tarjeta es válida?', luhnAlgo); 
+   //console.log('¿la tarjeta es válida?', luhnAlgo); 
     
    if (luhnAlgo === true ) {
        document.getElementById('validation').innerHTML = '¡Su tarjeta es válida!'
@@ -33,7 +33,7 @@ payButton.addEventListener('click', ()=> {
         document.getElementById('validation').innerHTML = '¡Su tarjeta es inválida!'
         document.getElementById('validation').style.display='block';
       }
-      console.log('esto es el maskify', validator.maskify (creditCardNumber.value));
+      //console.log('esto es el maskify', validator.maskify (creditCardNumber.value));
 });
 
 //Botón de limpiar, borra los datos agregados
