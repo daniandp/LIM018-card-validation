@@ -1,5 +1,54 @@
 # Tarjeta de crédito válida
 
+
+
+## Zona Código
+
+Mi proyecto es la página web de una academia de programación que utiliza una 
+herramienta para validar las tarjetas de crédito  que utilizan los 
+estudiantes para realizar el pago de la inscripción.
+
+![zona código 1](LIM018-card-validation/zonacodigofinal1.png)
+
+![zona código 2](LIM018-card-validation/zonacodigofinal2.png)
+
+## Investigación UX
+
+#### ¿Quienes son los principales usuarios de mi producto?
+
+personas interesadas en aprender programación en línea, adquiriendo un curso virtual.
+
+#### Objetivos de los usuarios en relación con mi producto
+
+ Poder realizar el pago de su inscripción de forma online y segura, 
+ asegurándose de que su tarjeta es válida.
+ 
+ #### ¿Cómo mi producto resuelve un problema o necesidad?
+ 
+  Mi producto resuelve los siguientes problemas del usuario:
+  * Al momento de pagar, se asegura de que los datos ingresados son los correctos, 
+  evitando errores de tipeo.
+  * Puede confirmar que su tarjeta es válida.
+  * Puede realizar un pago seguro.
+  * Evita hacer el pago con personas intermediarias, transferencias o depósitos.
+  * Tener que trasladarse a pagar de forma presencial, puede realizar el pago desde cualquier parte.
+
+![prototipo inicial ](LIM018-card-validation/prototipoinicial.jpeg)
+
+#### Resumen del feedback recibido
+
+Es una idea creativa, interesante y enfocada en el mundo actual, ya que gran parte de
+la educación se ha trasladado al campo virtual, 
+algunas mejoras a realizar pueden ser:
+* No sobrecargar con texto porque a las personas quieren acceso rápido a la información
+que están buscando.
+* Que los botones de acción principales sean llamativos y destaquen
+* No sobrecargar con imágenes que distraigan de lo importante
+
+![prototipo final 1](https://www.figma.com/file/w6xI0bVzZbehoCb7aen26s/Prototipo-Validaci%C3%B3n-de-Tarjeta-para-Academia-de-Programaci%C3%B3n?node-id=42%3A4)
+
+![prototipo final 2](https://www.figma.com/file/w6xI0bVzZbehoCb7aen26s/Prototipo-Validaci%C3%B3n-de-Tarjeta-para-Academia-de-Programaci%C3%B3n?node-id=2%3A7)
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
