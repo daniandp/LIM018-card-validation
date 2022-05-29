@@ -12,7 +12,7 @@ estudiantes para realizar el pago de la inscripción.
 
 ![zona código 2](LIM018-card-validation/zonacodigofinal2.png)
 
-### Investigación UX
+## Investigación UX
 
 #### ¿Quienes son los principales usuarios de mi producto?
 
