@@ -45,9 +45,9 @@ que están buscando.
 * Que los botones de acción principales sean llamativos y destaquen
 * No sobrecargar con imágenes que distraigan de lo importante
 
-![prototipo final 1](https://www.figma.com/file/w6xI0bVzZbehoCb7aen26s/Prototipo-Validaci%C3%B3n-de-Tarjeta-para-Academia-de-Programaci%C3%B3n?node-id=42%3A4)
+![prototipo final 1](LIM018-card-validation/prototipofinal1.png)
 
-![prototipo final 2](https://www.figma.com/file/w6xI0bVzZbehoCb7aen26s/Prototipo-Validaci%C3%B3n-de-Tarjeta-para-Academia-de-Programaci%C3%B3n?node-id=2%3A7)
+![prototipo final 2](LIM018-card-validation/prototipofinal2.png)
 
 ## Índice
 
