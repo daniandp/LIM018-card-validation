@@ -8,15 +8,15 @@ Mi proyecto es la página web de una academia de programación que utiliza una
 herramienta para validar las tarjetas de crédito  que utilizan los 
 estudiantes para realizar el pago de la inscripción.
 
-![zona código 1](LIM018-card-validation/zonacodigofinal1.png)
+![zona código 1](zonacodigofinal1.png)
 
-![zona código 2](LIM018-card-validation/zonacodigofinal2.png)
+![zona código 2](zonacodigofinal2.png)
 
 ## Investigación UX
 
 #### ¿Quienes son los principales usuarios de mi producto?
 
-personas interesadas en aprender programación en línea, adquiriendo un curso virtual.
+Personas interesadas en aprender programación en línea, adquiriendo un curso virtual.
 
 #### Objetivos de los usuarios en relación con mi producto
 
@@ -33,7 +33,7 @@ personas interesadas en aprender programación en línea, adquiriendo un curso v
   * Evita hacer el pago con personas intermediarias, transferencias o depósitos.
   * Tener que trasladarse a pagar de forma presencial, puede realizar el pago desde cualquier parte.
 
-![prototipo inicial ](LIM018-card-validation/prototipoinicial.jpeg)
+![prototipo inicial ](prototipoinicial.jpeg)
 
 #### Resumen del feedback recibido
 
@@ -45,9 +45,9 @@ que están buscando.
 * Que los botones de acción principales sean llamativos y destaquen
 * No sobrecargar con imágenes que distraigan de lo importante
 
-![prototipo final 1](https://www.figma.com/file/w6xI0bVzZbehoCb7aen26s/Prototipo-Validaci%C3%B3n-de-Tarjeta-para-Academia-de-Programaci%C3%B3n?node-id=42%3A4)
+![prototipo final 1](prototipofinal1.png)
 
-![prototipo final 2](https://www.figma.com/file/w6xI0bVzZbehoCb7aen26s/Prototipo-Validaci%C3%B3n-de-Tarjeta-para-Academia-de-Programaci%C3%B3n?node-id=2%3A7)
+![prototipo final 2](prototipofinal2.png)
 
 ## Índice
 
