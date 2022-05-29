@@ -1,5 +1,17 @@
 # Tarjeta de crédito válida
 
+
+
+## Zona Código
+
+Mi proyecto es la página web de una academia de programación que utiliza una 
+herramienta para validar las tarjetas de crédito  que utilizan los 
+estudiantes para realizar el pago de la inscripción.
+
+![zona código final 1](imagen/zonacodigofinal1.png)
+![zona código final 1](imagen/zonacodigofinal2.png)
+
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
