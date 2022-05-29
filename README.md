@@ -9,7 +9,7 @@ herramienta para validar las tarjetas de crédito  que utilizan los
 estudiantes para realizar el pago de la inscripción.
 
 ![zona código final 1](imagen/zonacodigofinal1.png)
-![zona código final 1](imagen/zonacodigofinal2.png)
+![zona código final 2](imagen/zonacodigofinal2.png)
 
 
 ## Índice
