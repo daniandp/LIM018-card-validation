@@ -8,6 +8,7 @@ Mi proyecto es la página web de una academia de programación que utiliza una
 herramienta para validar las tarjetas de crédito  que utilizan los 
 estudiantes para realizar el pago de la inscripción.
 
+
 ![zona código 1](zonacodigofinal1.png)
 
 ![zona código 2](zonacodigofinal2.png)
@@ -32,6 +33,7 @@ Personas interesadas en aprender programación en línea, adquiriendo un curso v
   * Puede realizar un pago seguro.
   * Evita hacer el pago con personas intermediarias, transferencias o depósitos.
   * Tener que trasladarse a pagar de forma presencial, puede realizar el pago desde cualquier parte.
+  
 
 ![prototipo inicial ](prototipoinicial.jpeg)
 
