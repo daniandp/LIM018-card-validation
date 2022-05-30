@@ -37,7 +37,7 @@ body{
 
 .menuitem{
    font-size: 18px;
-   margin: 0 15px; 
+   margin: 0 20px; 
    line-height: 30px;
    cursor: pointer;
 }
@@ -104,10 +104,6 @@ input[type=date]{
     border-radius: 5px;
 }
 
-input[id="expira"]{
-    width: 110px;
-    height: 26px;
- }
 
  input[id="cvv"]{
     width: 110px;
@@ -151,7 +147,7 @@ label[for="cardnumber"]{
 }
 
 footer{ 
-    height: 12em;
+    height: 110px;
     text-align: center;
     font-family: 'Montserrat';
     color:#FFFFFF;
